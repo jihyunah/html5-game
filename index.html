@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/src/mystyle.css" />
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+  </head>
+  <body id="body">
+      <div id="parentStart">
+      
+      
+        <button class="button" onclick="Start()">start game</button>
+      </div>
+      
+        
+      <div id="game" style="display: none"></div>
+
+    <script>
+      function Start() {
+        document.getElementById("parentStart").style.display = "none";
+        document.getElementById("body").style.backgroundImage = "none";
+        document.getElementById("game").style.display = "inline";
+      }
+
+      
+    </script>
+  </body>
+</html>

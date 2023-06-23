@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Tungsten";
+  src: url("/src/assets/Tungsten-Bold.woff") format("woff");
+}
+
+body {
+  width: 343px;
+  height: 51px;
+  left: calc(50% - 343px / 2);
+  top: 367px;
+
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  background-image: url('/src/assets/start_page.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  /* background-size: 50%; */
+
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Tungsten;
+}
+
+.button {
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  border: #ffffff;
+  cursor: pointer;
+
+  position: absolute;
+  width: 343px;
+  height: 56px;
+  left: 306px;
+  top: 474px;
+
+  background: #2167bd;
+  color: #ffffff;
+  font-size: 14pt;
+  border-radius: 8px;
+}
